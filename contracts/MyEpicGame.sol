@@ -88,8 +88,8 @@ contract MyEpicGame is ERC721 {
         _tokenIds.increment();
     }
 
-    function tokenUri(uint256 _tokenIds) public view override returns(string memory){
-        CharacterAttributes memory charAttributes = nftHolderAttributes[_tokenIds];
+    function tokenURI(uint256 _tokenId) public view override returns(string memory){
+        CharacterAttributes memory charAttributes = nftHolderAttributes[_tokenId];
 
         string memory strHP = Strings.toString(charAttributes.HP);
         string memory strMaxHP = Strings.toString(charAttributes.maxHP);
@@ -97,11 +97,13 @@ contract MyEpicGame is ERC721 {
 
         string memory json = Base64.encode(
             abi.encodePacked(
-            '{"name": "', charAttributes.name,
-            '-- NFT #: ', Strings.toString(_tokenIds),
+            '{"name": "', 
+            charAttributes.name,
+            ' -- NFT #: ',
+            Strings.toString(_tokenId),
             '", "description": "Esta NFT da acesso ao meu jogo NFT!", "image": "',
             charAttributes.imageURI,
-            '", "attributes": [ {"trait_type": "Health Points", "value": ',strHP,', "max_value":',strMaxHP,'}, { "trait_type": "Atk", "value": ', strAtk,'} ]}'
+            '", "attributes": [ {"trait_type": "Health Points", "value": ',strHP,', "max_value":',strMaxHP,'}, { "trait_type": "atk", "value": ', strAtk,'} ]}'
         )
     );
 
@@ -110,5 +112,5 @@ contract MyEpicGame is ERC721 {
     );
 
     return output;
-    }
+}
 }

@@ -1,10 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/marcos/nft/epic-game/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1661560064890,
-      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
-      "sourceName": "hardhat/console.sol",
+    "/home/marcos/nft/WEB3/epic-game/nft-game/contracts/libraries/Base64.sol": {
+      "lastModificationDate": 1661886057687,
+      "contentHash": "859f40d76e96c6b4378c3eb030c6b5d0",
+      "sourceName": "contracts/libraries/Base64.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -30,15 +30,15 @@
       },
       "imports": [],
       "versionPragmas": [
-        ">=0.4.22 <0.9.0"
+        "^0.8.1"
       ],
       "artifacts": [
-        "console"
+        "Base64"
       ]
     },
-    "/home/marcos/nft/epic-game/contracts/MyEpicGame.sol": {
-      "lastModificationDate": 1661890921053,
-      "contentHash": "0a0e9a99e6990280d49a701861aa80b3",
+    "/home/marcos/nft/WEB3/epic-game/nft-game/contracts/MyEpicGame.sol": {
+      "lastModificationDate": 1661985229575,
+      "contentHash": "927401a18dac55f3c45ed93e8cba4e71",
       "sourceName": "contracts/MyEpicGame.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -77,7 +77,7 @@
         "MyEpicGame"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
       "lastModificationDate": 1661561358291,
       "contentHash": "79ff1a7eb801a525aa315fb7a679eede",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
@@ -120,7 +120,7 @@
         "ERC721"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
       "lastModificationDate": 1661561358203,
       "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
       "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
@@ -155,7 +155,7 @@
         "Counters"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
       "lastModificationDate": 1661561358454,
       "contentHash": "cf46906c4035f51639a22265066a9e78",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
@@ -190,7 +190,42 @@
         "Strings"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1661560064890,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
       "lastModificationDate": 1661561358388,
       "contentHash": "ec99d946db3685a3630554aa6055bd7f",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
@@ -227,7 +262,7 @@
         "IERC721"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
       "lastModificationDate": 1661561358391,
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
@@ -262,7 +297,7 @@
         "IERC721Receiver"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
       "lastModificationDate": 1661561358391,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
@@ -299,7 +334,7 @@
         "IERC721Metadata"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/utils/Address.sol": {
       "lastModificationDate": 1661561358192,
       "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
@@ -334,7 +369,7 @@
         "Address"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/utils/Context.sol": {
       "lastModificationDate": 1661561358203,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
@@ -369,7 +404,7 @@
         "Context"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
       "lastModificationDate": 1661561358253,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
@@ -406,7 +441,7 @@
         "ERC165"
       ]
     },
-    "/home/marcos/nft/epic-game/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+    "/home/marcos/nft/WEB3/epic-game/nft-game/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
       "lastModificationDate": 1661561358361,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
@@ -439,41 +474,6 @@
       ],
       "artifacts": [
         "IERC165"
-      ]
-    },
-    "/home/marcos/nft/epic-game/contracts/libraries/Base64.sol": {
-      "lastModificationDate": 1661886057687,
-      "contentHash": "859f40d76e96c6b4378c3eb030c6b5d0",
-      "sourceName": "contracts/libraries/Base64.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.1"
-      ],
-      "artifacts": [
-        "Base64"
       ]
     }
   }
